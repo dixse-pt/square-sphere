@@ -2,7 +2,7 @@
   "basics": {
     "name": "Julien Landouar",
     "label": "Data Engineering | DevOps | Front-End Development",
-    "image": "portfolio/1727471469845.jpeg",
+    "image": "../1727471469845.jpeg",
     "email": "julien.landouar@gmail.com",
     "phone": "0608015850",
     "url": "https://jlnlndr.fr",
@@ -84,7 +84,7 @@
       "startDate": "2024-09",
       "endDate": "2024-12",
       "description": "bloc 2 et 3",
-      "url":""
+      "url":"https://datascientest.com/"
 
     },
     {
@@ -93,7 +93,7 @@
       "studyType": "Titre professionnel (TP) de niveau 6",
       "startDate": "2024-03",
       "endDate": "2024-06",
-      "url":""
+      "url":"https://datascientest.com/"
 
     },
     {
@@ -101,7 +101,7 @@
       "area": "INTÉGRATION & WEBDESIGN",
       "startDate": "2009-09",
       "endDate": "2010-07",
-      "url":""
+      "url":"https://www.itecom-artdesign.com/"
 
     },
     {
@@ -110,7 +110,7 @@
       "studyType": "Licence",
       "startDate": "2008-09",
       "endDate": "2009-07",
-      "url":""
+      "url":"https://www.efficom.fr/"
     },
     {
       "institution": "EFFICOM",
@@ -118,7 +118,7 @@
       "studyType": "BTS",
       "startDate": "2007-09",
       "endDate": "2008-07",
-      "url":""
+      "url":"https://www.efficom.fr/"
 
     }
   ],
@@ -506,34 +506,33 @@
   ],
   "projects": [
     {
-      "name": "Datascientest sep24_bootcamp_de",
+      "name": "sep24_bootcamp_de",
       "isActive": true,
-      "description": "J'ai suivi un bootcamp intensif de 3 mois en Data Engineering avec DataScientest, dans le cadre de la cohorte sep24_bootcamp. Cette formation m'a permis d'acquérir les bases nécessaires pour gérer et transformer des données à grande échelle. J'y ai appris à utiliser des technologies comme Python, Hadoop, Spark et Kafka, ainsi qu'à manipuler des bases de données SQL et NoSQL. J'ai également été initié aux environnements cloud (AWS) et aux outils de monitoring tels que Prometheus et Grafan",
+      "description": "Formation intensive Data Engineering de 3 mois avec DataScientest (cohorte sep24). Acquisition des compétences en traitement de données à grande échelle, bases de données, et cloud computing avec Python, Hadoop, Spark, et Kafka.",
       "highlights": [
         "Technologies: Python, Hadoop, Spark, Kafka",
         "Databases: SQL, NoSQL",
         "Cloud: AWS, Prometheus, Grafana",
         "Data processing and transformation at scale"
       ],
-      "url": "",
       "github": "https://gitlab.com/datascientest_sep24_bootcamp_de"
     },
     {
-      "name": "Datascientest mar24_bootcamp_devops",
+      "name": "mar24_bootcamp_devops",
       "isActive": true,
-      "description": "J'ai suivi un bootcamp intensif de 3 mois en DevOps avec DataScientest, dans le cadre de la cohorte mar24_bootcamp_devops. Cette formation m'a permis d'acquérir les bases nécessaires pour concevoir, automatiser et maintenir des infrastructures modernes. J'y ai appris à utiliser des outils comme Docker, Kubernetes, Ansible et Terraform, ainsi que des pipelines CI/CD avec GitLab. J'ai également été initié aux environnements cloud, notamment AWS, et aux pratiques de monitoring et de gestion des log",
+      "description": "Formation intensive DevOps de 3 mois avec DataScientest (cohorte mar24). Acquisition des compétences en containerisation, orchestration, IaC et CI/CD avec Docker, Kubernetes, Ansible, Terraform et GitLab. Pratique du cloud AWS et du monitoring.",
       "highlights": [
         "Technologies: Docker, Kubernetes, Ansible, Terraform",
         "CI/CD: GitLab pipelines",
         "Cloud: AWS, monitoring, logging",
         "Infrastructure automation and management"
       ],
-      "gitlab": "https://gitlab.com/datascientest_mar24_bootcamp_devops"
+      "github": "https://gitlab.com/datascientest_mar24_bootcamp_devops"
     },
     {
       "name": "Paragon Cordial",
       "isActive": true,
-      "description": "Développement d’un site WordPress sur mesure basé sur les maquettes Adobe XD, utilisant PHP, JavaScript, HTML/CSS, avec intégration de fonctionnalités dynamiques, optimisé pour la performance et la responsivité.",
+      "description": "Développement WordPress sur mesure avec intégration responsive, optimisation des performances et SEO.",
       "highlights": [
         "Développement WordPress sur mesure",
         "Intégration responsive des maquettes Adobe XD",
@@ -545,7 +544,20 @@
     {
       "name": "Shopu",
       "isActive": true,
-      "description": "Création d’un site e-commerce sous PrestaShop, basé sur des maquettes PDF, avec développement en Smarty, PHP, JavaScript, HTML/CSS. Intégration d’un design responsive et fonctionnel, respectant l’identité visuelle de la marque. J’ai mis en place des modèles de paiement et de livraison diversifiés pour faciliter la gestion quotidienne du e-commerçant. Optimisation des performances, des fonctionnalités et de l’expérience utilisateur, tout en garantissant un système de commande fluide et sécurisé.",
+      "description": "Développement d'un site e-commerce PrestaShop avec intégration de maquettes, systèmes de paiement et livraison, optimisation des performances et UX.",
+      "highlights": [
+        "Développement PrestaShop sur mesure",
+        "Intégration des maquettes PDF",
+        "Mise en place des systèmes de paiement et livraison",
+        "Optimisation des performances et UX",
+        "Gestion du catalogue et panier d'achat"
+      ],
+      "url": "https://www.shopu.fr/fr/"
+    },
+    {
+      "name": "Shopu",
+      "isActive": true,
+      "description": "Développement d'un site e-commerce PrestaShop avec intégration de maquettes, systèmes de paiement et livraison, optimisation des performances et UX.",
       "highlights": [
         "Développement PrestaShop sur mesure",
         "Intégration des maquettes PDF",
