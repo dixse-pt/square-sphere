@@ -5,6 +5,7 @@ import { education, certificates } from "@cv";
 // Constantes pour les limites d'affichage
 const EDUCATION_DISPLAY_LIMIT = 2;
 const CERTIFICATES_DISPLAY_LIMIT = 10;
+const CERTIFICATES_PER_FORMATION = 5;
 
 // Trier et diviser l'éducation
 const sortedEducation = education.sort((a, b) => 
@@ -118,7 +119,7 @@ const formationOrder = ['sep24_bootcamp_de', 'mar24_bootcamp_devops', 'Autres'];
   </div>
 
   {certificates.length > 0 && (
-    <div x-data="{ expanded: false }">
+    <div>
       <h3 class="relative flex w-full items-center gap-3 pb-4 text-3xl print:gap-1 print:pb-0 print:text-xl">
         Certificates
       </h3>
@@ -128,7 +129,7 @@ const formationOrder = ['sep24_bootcamp_de', 'mar24_bootcamp_devops', 'Autres'];
         if (formationCerts.length === 0) return null;
 
         return (
-          <div class="mb-8">
+          <div class="mb-8" x-data="{ expandedFormation: false }">
             <h4 class="text-lg font-medium mb-4">
               {formation === 'sep24_bootcamp_de' && 'Data Engineering Bootcamp'}
               {formation === 'mar24_bootcamp_devops' && 'DevOps Bootcamp'}
@@ -136,9 +137,10 @@ const formationOrder = ['sep24_bootcamp_de', 'mar24_bootcamp_devops', 'Autres'];
             </h4>
             
             <ul class="space-y-4 py-3 print:space-y-0">
-              {/* Certificats toujours visibles */}
-              {formationCerts.slice(0, CERTIFICATES_DISPLAY_LIMIT).map(({ name, date, issuer, url }) => {
+              {/* Premiers certificats toujours visibles */}
+              {formationCerts.slice(0, CERTIFICATES_PER_FORMATION).map(({ name, date, issuer, url, formation }) => {
                 const certificateYear = new Date(date).getFullYear();
+                const formationLabel = formation ? `${formation}` : '';
                 return (
                   <div class="flex items-baseline">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mr-2 hidden h-5 w-5 self-start md:inline-block print:hidden">
@@ -148,25 +150,36 @@ const formationOrder = ['sep24_bootcamp_de', 'mar24_bootcamp_devops', 'Autres'];
                       <path d="M8 21h12a2 2 0 0 0 2-2v-1a1 1 0 0 0-1-1H11a1 1 0 0 0-1 1v1a2 2 0 1 1-4 0V5a2 2 0 1 0-4 0v2a1 1 0 0 0 1 1h3" />
                     </svg>
                     <div class="relative w-full items-baseline justify-between gap-2">
-                      <h3 class="mr-6 items-baseline gap-x-2 gap-y-0.5 font-medium">
-                        <a class="hover:text-skin-hue group flex items-center gap-[6px] text-skin-base decoration-dotted underline-offset-[5px] hover:underline" href={url} target="_blank">
-                          {name}
-                        </a>
-                      </h3>
+                      <div class="flex items-center gap-2">
+                        <h3 class="mr-2 items-baseline gap-x-2 gap-y-0.5 font-medium">
+                          <a class="hover:text-skin-hue group flex items-center gap-[6px] text-skin-base decoration-dotted underline-offset-[5px] hover:underline" href={url} target="_blank">
+                            {name}
+                          </a>
+                        </h3>
+                        {formationLabel && (
+                          <span class="text-xs bg-skin-button-accent/10 px-2 py-0.5 rounded-full text-skin-base">
+                            {formationLabel}
+                          </span>
+                        )}
+                      </div>
                       <div class="text-sm text-skin-muted">{issuer}</div>
-                      <time class="right-0 top-0 text-xs text-skin-muted md:absolute md:block">{certificateYear}</time>
+                      <time class="right-0 top-0 text-xs text-skin-muted md:absolute md:block">
+                        {certificateYear}
+                      </time>
                     </div>
                   </div>
                 );
               })}
 
-              {/* Certificats cachés */}
-              <div class="space-y-4" x-show="expanded"
-                x-transition:enter="transition ease-out duration-200"
-                x-transition:enter-start="opacity-0 -translate-y-1"
-                x-transition:enter-end="opacity-100 translate-y-0">
-                {formationCerts.slice(CERTIFICATES_DISPLAY_LIMIT).map(({ name, date, issuer, url }) => {
+              {/* Certificats masqués */}
+              <div x-show="expandedFormation"
+                   x-transition:enter="transition ease-out duration-200"
+                   x-transition:enter-start="opacity-0 -translate-y-1"
+                   x-transition:enter-end="opacity-100 translate-y-0"
+                   class="space-y-4">
+                {formationCerts.slice(CERTIFICATES_PER_FORMATION).map(({ name, date, issuer, url, formation }) => {
                   const certificateYear = new Date(date).getFullYear();
+                  const formationLabel = formation ? `${formation}` : '';
                   return (
                     <div class="flex items-baseline">
                       <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mr-2 hidden h-5 w-5 self-start md:inline-block print:hidden">
@@ -176,13 +189,22 @@ const formationOrder = ['sep24_bootcamp_de', 'mar24_bootcamp_devops', 'Autres'];
                         <path d="M8 21h12a2 2 0 0 0 2-2v-1a1 1 0 0 0-1-1H11a1 1 0 0 0-1 1v1a2 2 0 1 1-4 0V5a2 2 0 1 0-4 0v2a1 1 0 0 0 1 1h3" />
                       </svg>
                       <div class="relative w-full items-baseline justify-between gap-2">
-                        <h3 class="mr-6 items-baseline gap-x-2 gap-y-0.5 font-medium">
-                          <a class="hover:text-skin-hue group flex items-center gap-[6px] text-skin-base decoration-dotted underline-offset-[5px] hover:underline" href={url} target="_blank">
-                            {name}
-                          </a>
-                        </h3>
+                        <div class="flex items-center gap-2">
+                          <h3 class="mr-2 items-baseline gap-x-2 gap-y-0.5 font-medium">
+                            <a class="hover:text-skin-hue group flex items-center gap-[6px] text-skin-base decoration-dotted underline-offset-[5px] hover:underline" href={url} target="_blank">
+                              {name}
+                            </a>
+                          </h3>
+                          {formationLabel && (
+                            <span class="text-xs bg-skin-button-accent/10 px-2 py-0.5 rounded-full text-skin-base">
+                              {formationLabel}
+                            </span>
+                          )}
+                        </div>
                         <div class="text-sm text-skin-muted">{issuer}</div>
-                        <time class="right-0 top-0 text-xs text-skin-muted md:absolute md:block">{certificateYear}</time>
+                        <time class="right-0 top-0 text-xs text-skin-muted md:absolute md:block">
+                          {certificateYear}
+                        </time>
                       </div>
                     </div>
                   );
@@ -190,19 +212,19 @@ const formationOrder = ['sep24_bootcamp_de', 'mar24_bootcamp_devops', 'Autres'];
               </div>
             </ul>
 
-            {formationCerts.length > CERTIFICATES_DISPLAY_LIMIT && (
-              <button @click="expanded = !expanded" 
+            {formationCerts.length > CERTIFICATES_PER_FORMATION && (
+              <button @click="expandedFormation = !expandedFormation" 
                       class="mt-4 print:hidden group/more w-fit cursor-pointer items-center justify-center gap-1.5 text-xs underline text-skin-muted transition-all hover:text-skin-base flex">
-                <span x-text="expanded ? 'Voir moins' : 'Voir plus'"></span>
+                <span x-text="expandedFormation ? 'Voir moins' : `Voir plus (${formationCerts.length - CERTIFICATES_PER_FORMATION})`"></span>
                 <svg class="w-4 h-4 group-hover/more:translate-y-0.5 duration-200 ease-out"
-                  :class="{ 'rotate-180': expanded }"
-                  viewBox="0 0 24 24"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round">
+                     :class="{ 'rotate-180': expandedFormation }"
+                     viewBox="0 0 24 24"
+                     xmlns="http://www.w3.org/2000/svg"
+                     fill="none"
+                     stroke="currentColor"
+                     stroke-width="2"
+                     stroke-linecap="round"
+                     stroke-linejoin="round">
                   <polyline points="6 9 12 15 18 9"></polyline>
                 </svg>
               </button>

@@ -91,7 +91,7 @@
       "studyType": "Titre professionnel (TP) de niveau 6",
       "startDate": "2024-03",
       "endDate": "2024-06",
-      "url":"https://datascientest.com/"
+      "url":"https://files.datascientest.com/diploma/d5523011-e041-4bb9-b0d9-730c6935f613.pdf"
 
     },
     {
@@ -146,61 +146,81 @@
       "name": "Machine Learning with sklearn",
       "date": "October 2024",
       "issuer": "DataScientest.com",
-      "url": "https://files.datascientest.com/certification/f72ad9c5-0cf5-4fbf-86d6-ee287537e2ef.pdf"
+      "url": "https://files.datascientest.com/certification/f72ad9c5-0cf5-4fbf-86d6-ee287537e2ef.pdf",
+      "formation": "sep24_bootcamp_devops"
+
     },
     {
       "name": "PySpark",
       "date": "October 2024",
       "issuer": "DataScientest.com",
-      "url": "https://files.datascientest.com/certification/3559ed70-f064-4496-864c-3749e54c2195.pdf"
+      "url": "https://files.datascientest.com/certification/3559ed70-f064-4496-864c-3749e54c2195.pdf",
+      "formation": "sep24_bootcamp_devops"
+
     },
     {
       "name": "Relational Databases",
       "date": "September 2024",
       "issuer": "DataScientest.com",
-      "url": "https://files.datascientest.com/certification/5c1e0df8-e1d5-4d5d-a154-b457efb98965.pdf"
+      "url": "https://files.datascientest.com/certification/5c1e0df8-e1d5-4d5d-a154-b457efb98965.pdf",
+      "formation": "sep24_bootcamp_devops"
+
     },
     {
       "name": "GDPR, AI Ethics, and Act",
       "date": "September 2024",
       "issuer": "DataScientest.com",
-      "url": "https://files.datascientest.com/certification/ff4f15e0-7f8e-47c7-b603-c7e35b59e1a5.pdf"
+      "url": "https://files.datascientest.com/certification/ff4f15e0-7f8e-47c7-b603-c7e35b59e1a5.pdf",
+      "formation": "sep24_bootcamp_devops"
+
     },
     {
       "name": "First Steps on the Virtual Machine",
       "date": "September 2024",
       "issuer": "DataScientest.com",
-      "url": "https://files.datascientest.com/certification/84e0929b-a2f3-429b-a53f-3c465431bc9c.pdf"
+      "url": "https://files.datascientest.com/certification/84e0929b-a2f3-429b-a53f-3c465431bc9c.pdf",
+      "formation": "sep24_bootcamp_devops"
+
     },
     {
       "name": "Object-Oriented Programming (FR)",
       "date": "September 2024",
       "issuer": "DataScientest.com",
-      "url": "https://files.datascientest.com/certification/16bf873d-2f64-46a7-97fd-f68a5e188173.pdf"
+      "url": "https://files.datascientest.com/certification/16bf873d-2f64-46a7-97fd-f68a5e188173.pdf",
+      "formation": "sep24_bootcamp_devops"
+
     },
     {
       "name": "Python for Data Engineering",
       "date": "September 2024",
       "issuer": "DataScientest.com",
-      "url": "https://files.datascientest.com/certification/06a31205-f81f-4320-a72e-2378ba9ac430.pdf"
+      "url": "https://files.datascientest.com/certification/06a31205-f81f-4320-a72e-2378ba9ac430.pdf",
+      "formation": "sep24_bootcamp_devops"
+
     },
     {
       "name": "Web Scraping with BeautifulSoup",
       "date": "September 2024",
       "issuer": "DataScientest.com",
-      "url": "https://files.datascientest.com/certification/3ffc5869-8558-4b6d-970e-6fb92d0b75a8.pdf"
+      "url": "https://files.datascientest.com/certification/3ffc5869-8558-4b6d-970e-6fb92d0b75a8.pdf",
+      "formation": "sep24_bootcamp_devops"
+
     },
     {
       "name": "Ansible",
       "date": "July 2024",
       "issuer": "DataScientest.com",
-      "url": "https://files.datascientest.com/certification/e0937ac4-72f6-4724-833b-56789d5e4487.pdf"
+      "url": "https://files.datascientest.com/certification/e0937ac4-72f6-4724-833b-56789d5e4487.pdf",
+      "formation": "mar24_bootcamp_devops"
+
     },
     {
       "name": "Terraform",
       "date": "July 2024",
       "issuer": "DataScientest.com",
-      "url": "https://files.datascientest.com/certification/a8299dcc-65c5-432f-8456-4684daf50c3e.pdf"
+      "url": "https://files.datascientest.com/certification/a8299dcc-65c5-432f-8456-4684daf50c3e.pdf",
+      "formation": "mar24_bootcamp_devops"
+
     },
     {
       "name": "Docker DevOps",
@@ -220,40 +240,55 @@
       "name": "GitLab",
       "date": "April 2024",
       "issuer": "DataScientest.com",
-      "url": "https://files.datascientest.com/certification/4d4e2c97-b31b-4ba8-b808-d4581b1fb35c.pdf"
+      "url": "https://files.datascientest.com/certification/4d4e2c97-b31b-4ba8-b808-d4581b1fb35c.pdf",
+      "formation": "mar24_bootcamp_devops"
+
     },
     {
       "name": "Jenkins",
       "date": "April 2024",
       "issuer": "DataScientest.com",
-      "url": "https://files.datascientest.com/certification/d4d038ed-6416-4f1a-81c2-aadd9b412eb7.pdf"
+      "url": "https://files.datascientest.com/certification/d4d038ed-6416-4f1a-81c2-aadd9b412eb7.pdf",
+      "formation": "mar24_bootcamp_devops"
+
     },
     {
       "name": "Kubernetes for DevOps",
       "date": "March 2024",
       "issuer": "DataScientest.com",
-      "url": "https://files.datascientest.com/certification/ce8dcc8e-a4fb-43aa-a18d-0ca8a23e1415.pdf"
+      "url": "https://files.datascientest.com/certification/ce8dcc8e-a4fb-43aa-a18d-0ca8a23e1415.pdf",
+      "formation": "mar24_bootcamp_devops"
+
     },
     {
       "name": "Linux Administration",
       "date": "March 2024",
       "issuer": "DataScientest.com",
-      "url": "https://files.datascientest.com/certification/502260da-004d-4b47-8a31-d062ba2775be.pdf"
+      "url": "https://files.datascientest.com/certification/502260da-004d-4b47-8a31-d062ba2775be.pdf",
+      "formation": "mar24_bootcamp_devops"
+
     },
     {
       "name": "NoSQL Databases (MongoDB)",
       "date": "March 2024",
-      "issuer": "DataScientest.com"
+      "issuer": "DataScientest.com",
+      "formation": "mar24_bootcamp_devops"
+
     },
     {
       "name": "SQL for Data Science",
       "date": "March 2024",
-      "issuer": "DataScientest.com"
+      "issuer": "DataScientest.com",
+      "formation": "mar24_bootcamp_devops"
+
     },
     {
       "name": "Data Acculturation",
       "date": "March 2024",
-      "issuer": "DataScientest.com"
+      "issuer": "DataScientest.com",
+      "formation": "mar24_bootcamp_devops"
+
+
     }
   ],
   "skills": [
