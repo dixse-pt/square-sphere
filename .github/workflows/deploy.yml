@@ -21,7 +21,7 @@ jobs:
         with:
           node-version: 20
           package-manager: pnpm@latest 
-
+        
   deploy:
     name: Deploy to FTP
     needs: build
