@@ -36,7 +36,6 @@
         "SEO"
       ],
       "achievements": [
-        "Migration de sites legacy",
         "Optimisation des performances",
         "Gestion de projets"
       ],
@@ -63,7 +62,6 @@
         "SEO"
       ],
       "achievements": [
-        "Migration de sites legacy",
         "Optimisation des performances",
         "Gestion de projets"
       ],
@@ -201,12 +199,7 @@
       "issuer": "DataScientest.com",
       "url": "https://files.datascientest.com/certification/a8299dcc-65c5-432f-8456-4684daf50c3e.pdf"
     },
-    {
-      "name": "DevOps Engineer",
-      "date": "June 2024",
-      "issuer": "DevOps University France",
-      "url": "https://files.datascientest.com/diploma/d5523011-e041-4bb9-b0d9-730c6935f613.pdf"
-    },
+    
     {
       "name": "Docker DevOps",
       "date": "May 2024",
