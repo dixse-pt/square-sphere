@@ -6,6 +6,7 @@ import { education, certificates } from "@cv";
 const EDUCATION_DISPLAY_LIMIT = 2;
 const CERTIFICATES_DISPLAY_LIMIT = 10;
 const CERTIFICATES_PER_FORMATION = 5;
+const CERTIFICATES_PER_BOOTCAMP = 5;
 
 // Trier et diviser l'éducation
 const sortedEducation = education.sort((a, b) => 
@@ -128,17 +129,21 @@ const formationOrder = ['sep24_bootcamp_de', 'mar24_bootcamp_devops', 'Autres'];
         const formationCerts = certificatesByFormation[formation] || [];
         if (formationCerts.length === 0) return null;
 
+        const formationTitle = {
+          'sep24_bootcamp_de': 'Data Engineering Bootcamp',
+          'mar24_bootcamp_devops': 'DevOps Bootcamp',
+          'Autres': 'Autres certifications'
+        }[formation];
+
+        const bootcampId = formation.replace(/[^a-zA-Z0-9]/g, '');
+
         return (
-          <div class="mb-8" x-data="{ expandedFormation: false }">
-            <h4 class="text-lg font-medium mb-4">
-              {formation === 'sep24_bootcamp_de' && 'Data Engineering Bootcamp'}
-              {formation === 'mar24_bootcamp_devops' && 'DevOps Bootcamp'}
-              {formation === 'Autres' && 'Autres certifications'}
-            </h4>
+          <div class="mb-8" x-data={`{ expanded${bootcampId}: false }`}>
+            <h4 class="text-lg font-medium mb-4">{formationTitle}</h4>
             
             <ul class="space-y-4 py-3 print:space-y-0">
-              {/* Premiers certificats toujours visibles */}
-              {formationCerts.slice(0, CERTIFICATES_PER_FORMATION).map(({ name, date, issuer, url, formation }) => {
+              {/* Certificats visibles */}
+              {formationCerts.slice(0, CERTIFICATES_PER_BOOTCAMP).map(({ name, date, issuer, url, formation }) => {
                 const certificateYear = new Date(date).getFullYear();
                 const formationLabel = formation ? `${formation}` : '';
                 return (
@@ -172,12 +177,12 @@ const formationOrder = ['sep24_bootcamp_de', 'mar24_bootcamp_devops', 'Autres'];
               })}
 
               {/* Certificats masqués */}
-              <div x-show="expandedFormation"
+              <div x-show={`expanded${bootcampId}`}
                    x-transition:enter="transition ease-out duration-200"
                    x-transition:enter-start="opacity-0 -translate-y-1"
                    x-transition:enter-end="opacity-100 translate-y-0"
                    class="space-y-4">
-                {formationCerts.slice(CERTIFICATES_PER_FORMATION).map(({ name, date, issuer, url, formation }) => {
+                {formationCerts.slice(CERTIFICATES_PER_BOOTCAMP).map(({ name, date, issuer, url, formation }) => {
                   const certificateYear = new Date(date).getFullYear();
                   const formationLabel = formation ? `${formation}` : '';
                   return (
@@ -212,12 +217,12 @@ const formationOrder = ['sep24_bootcamp_de', 'mar24_bootcamp_devops', 'Autres'];
               </div>
             </ul>
 
-            {formationCerts.length > CERTIFICATES_PER_FORMATION && (
-              <button @click="expandedFormation = !expandedFormation" 
+            {formationCerts.length > CERTIFICATES_PER_BOOTCAMP && (
+              <button @click={`expanded${bootcampId} = !expanded${bootcampId}`}
                       class="mt-4 print:hidden group/more w-fit cursor-pointer items-center justify-center gap-1.5 text-xs underline text-skin-muted transition-all hover:text-skin-base flex">
-                <span x-text="expandedFormation ? 'Voir moins' : `Voir plus (${formationCerts.length - CERTIFICATES_PER_FORMATION})`"></span>
+                <span x-text={`expanded${bootcampId} ? 'Voir moins' : 'Voir plus (${formationCerts.length - CERTIFICATES_PER_BOOTCAMP})'`}></span>
                 <svg class="w-4 h-4 group-hover/more:translate-y-0.5 duration-200 ease-out"
-                     :class="{ 'rotate-180': expandedFormation }"
+                     :class={`{ 'rotate-180': expanded${bootcampId} }`}
                      viewBox="0 0 24 24"
                      xmlns="http://www.w3.org/2000/svg"
                      fill="none"
