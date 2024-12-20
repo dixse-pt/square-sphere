@@ -28,8 +28,23 @@
       "startDate": "2022-01",
       "endDate": "2023-10",
       "location_type": "On site",
-      "url":""
-
+      "url": "",
+      "summary": "Développement front-end et intégration",
+      "responsibilities": [
+        "Développement de composants React",
+        "Intégration responsive",
+        "Optimisation des performances"
+      ],
+      "achievements": [
+        "Refonte complète de l'interface utilisateur",
+        "Amélioration des temps de chargement"
+      ],
+      "skills": [
+        "React",
+        "TypeScript",
+        "CSS",
+        "HTML"
+      ]
     },
     {
       "name": "Quatre Vingt Deux",
@@ -38,8 +53,23 @@
       "startDate": "2014-08",
       "endDate": "2021-12",
       "location_type": "On site",
-      "url":""
-
+      "url": "",
+      "summary": "Développement front-end et WordPress",
+      "responsibilities": [
+        "Développement de thèmes WordPress",
+        "Intégration responsive",
+        "SEO"
+      ],
+      "achievements": [
+        "Migration de sites legacy",
+        "Optimisation des performances"
+      ],
+      "skills": [
+        "WordPress",
+        "PHP",
+        "JavaScript",
+        "CSS"
+      ]
     }
   ],
   "education": [
