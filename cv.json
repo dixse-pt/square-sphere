@@ -31,19 +31,21 @@
       "url": "",
       "summary": "Développement front-end et intégration",
       "responsibilities": [
-        "Développement de composants React",
+        "Développement de thèmes WordPress",
         "Intégration responsive",
-        "Optimisation des performances"
+        "SEO"
       ],
       "achievements": [
-        "Refonte complète de l'interface utilisateur",
-        "Amélioration des temps de chargement"
+        "Migration de sites legacy",
+        "Optimisation des performances",
+        "Gestion de projets"
       ],
       "skills": [
-        "React",
-        "TypeScript",
-        "CSS",
-        "HTML"
+        "WordPress",
+        "PHP",
+        "JavaScript",
+        "HTML",
+        "CSS"
       ]
     },
     {
@@ -54,7 +56,7 @@
       "endDate": "2021-12",
       "location_type": "On site",
       "url": "",
-      "summary": "Développement front-end et WordPress",
+      "summary": "Développement front-end et intégration",
       "responsibilities": [
         "Développement de thèmes WordPress",
         "Intégration responsive",
@@ -62,12 +64,14 @@
       ],
       "achievements": [
         "Migration de sites legacy",
-        "Optimisation des performances"
+        "Optimisation des performances",
+        "Gestion de projets"
       ],
       "skills": [
         "WordPress",
         "PHP",
         "JavaScript",
+        "HTML",
         "CSS"
       ]
     }
@@ -502,46 +506,54 @@
   ],
   "projects": [
     {
-      "name": "Personal Portfolio",
-      "isActive": false,
-      "description": "A personal portfolio website to showcase my projects and skills.",
-      "highlights": [
-        "Built with React and Tailwind CSS",
-        "Includes a blog and contact form"
-      ],
-      "url": "https://johndoe.dev",
-      "github": "https://github.com"
-    },
-    {
-      "name": "Weather App",
+      "name": "Datascientest sep24_bootcamp_de",
       "isActive": true,
-      "description": "A web application that provides weather information for any location.",
+      "description": "J'ai suivi un bootcamp intensif de 3 mois en Data Engineering avec DataScientest, dans le cadre de la cohorte sep24_bootcamp. Cette formation m'a permis d'acquérir les bases nécessaires pour gérer et transformer des données à grande échelle. J'y ai appris à utiliser des technologies comme Python, Hadoop, Spark et Kafka, ainsi qu'à manipuler des bases de données SQL et NoSQL. J'ai également été initié aux environnements cloud (AWS) et aux outils de monitoring tels que Prometheus et Grafan",
       "highlights": [
-        "Built with JavaScript and OpenWeatherMap API",
-        "Responsive design"
+        "Technologies: Python, Hadoop, Spark, Kafka",
+        "Databases: SQL, NoSQL",
+        "Cloud: AWS, Prometheus, Grafana",
+        "Data processing and transformation at scale"
       ],
-      "url": "https://weatherapp.com"
+      "url": "",
+      "github": "https://gitlab.com/datascientest_sep24_bootcamp_de"
     },
     {
-      "name": "Task Manager",
+      "name": "Datascientest mar24_bootcamp_devops",
       "isActive": true,
-      "description": "A simple task management app to keep track of daily tasks.",
+      "description": "J'ai suivi un bootcamp intensif de 3 mois en DevOps avec DataScientest, dans le cadre de la cohorte mar24_bootcamp_devops. Cette formation m'a permis d'acquérir les bases nécessaires pour concevoir, automatiser et maintenir des infrastructures modernes. J'y ai appris à utiliser des outils comme Docker, Kubernetes, Ansible et Terraform, ainsi que des pipelines CI/CD avec GitLab. J'ai également été initié aux environnements cloud, notamment AWS, et aux pratiques de monitoring et de gestion des log",
       "highlights": [
-        "Built with Node.js and MongoDB",
-        "User authentication and CRUD operations"
+        "Technologies: Docker, Kubernetes, Ansible, Terraform",
+        "CI/CD: GitLab pipelines",
+        "Cloud: AWS, monitoring, logging",
+        "Infrastructure automation and management"
       ],
-      "url": "https://taskmanager.com",
-      "github": "https://github.com"
+      "gitlab": "https://gitlab.com/datascientest_mar24_bootcamp_devops"
     },
     {
-      "name": "E-commerce Site",
-      "isActive": false,
-      "description": "An online store built with Next.js and Stripe for payment processing.",
+      "name": "Paragon Cordial",
+      "isActive": true,
+      "description": "Développement d’un site WordPress sur mesure basé sur les maquettes Adobe XD, utilisant PHP, JavaScript, HTML/CSS, avec intégration de fonctionnalités dynamiques, optimisé pour la performance et la responsivité.",
       "highlights": [
-        "Product management and shopping cart functionality",
-        "Secure payment integration"
+        "Développement WordPress sur mesure",
+        "Intégration responsive des maquettes Adobe XD",
+        "Optimisation des performances",
+        "SEO et multilingue"
       ],
-      "url": "https://ecommerce.com"
+      "url": "https://paragoncordial.com/fr/"
+    },
+    {
+      "name": "Shopu",
+      "isActive": true,
+      "description": "Création d’un site e-commerce sous PrestaShop, basé sur des maquettes PDF, avec développement en Smarty, PHP, JavaScript, HTML/CSS. Intégration d’un design responsive et fonctionnel, respectant l’identité visuelle de la marque. J’ai mis en place des modèles de paiement et de livraison diversifiés pour faciliter la gestion quotidienne du e-commerçant. Optimisation des performances, des fonctionnalités et de l’expérience utilisateur, tout en garantissant un système de commande fluide et sécurisé.",
+      "highlights": [
+        "Développement PrestaShop sur mesure",
+        "Intégration des maquettes PDF",
+        "Mise en place des systèmes de paiement et livraison",
+        "Optimisation des performances et UX",
+        "Gestion du catalogue et panier d'achat"
+      ],
+      "url": "https://www.shopu.fr/fr/"
     }
   ]
 }
