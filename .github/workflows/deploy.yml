@@ -53,7 +53,9 @@ jobs:
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
           server: mexico.o2switch.net
-          username: ${{ secrets.FTP_USERNAME }}
-          password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: ./dist/
+          port: 21
+          protocol: ftp
+          username: sitepagech
+          password: ${{ secrets.PROD_FTP_PASSWORD }}
           server-dir: public_html/www.jlnlndr.fr/portfolio/
+          
