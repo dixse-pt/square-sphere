@@ -1,0 +1,41 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout your repository using git
+        uses: actions/checkout@v4
+      - name: Install, build, and upload your site
+        uses: withastro/action@v3
+        with:
+          node-version: 20
+          package-manager: pnpm@latest 
+
+  deploy:
+    name: Deploy to FTP
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Sync files to FTP
+        uses: SamKirkland/FTP-Deploy-Action@4.3.3
+        with:
+          server: mexico.o2switch.net
+          port: 21
+          protocol: ftp
+          username: sitepagech
+          password: ${{ secrets.PROD_FTP_PASSWORD }}
+          server-dir: public_html/www.jlnlndr.fr/portfolio/
