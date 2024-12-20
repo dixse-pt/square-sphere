@@ -27,7 +27,9 @@
       "location": "Ville de Paris, Île-de-France, France",
       "startDate": "2022-01",
       "endDate": "2023-10",
-      "location_type": "On site"
+      "location_type": "On site",
+      "url":""
+
     },
     {
       "name": "Quatre Vingt Deux",
@@ -35,7 +37,9 @@
       "location": "Ville de Paris, Île-de-France, France",
       "startDate": "2014-08",
       "endDate": "2021-12",
-      "location_type": "On site"
+      "location_type": "On site",
+      "url":""
+
     }
   ],
   "education": [
@@ -45,34 +49,43 @@
       "studyType": "Certification de niveau 7 RNCP 38919",
       "startDate": "2024-09",
       "endDate": "2024-12",
-      "description": "bloc 2 et 3"
+      "description": "bloc 2 et 3",
+      "url":""
+
     },
     {
       "institution": "DataScientest.com",
       "area": "ADMINISTRATEUR SYSTÈME DEVOPS",
       "studyType": "Titre professionnel (TP) de niveau 6",
       "startDate": "2024-03",
-      "endDate": "2024-06"
+      "endDate": "2024-06",
+      "url":""
+
     },
     {
       "institution": "ITECOM ART DESIGN",
       "area": "INTÉGRATION & WEBDESIGN",
       "startDate": "2009-09",
-      "endDate": "2010-07"
+      "endDate": "2010-07",
+      "url":""
+
     },
     {
       "institution": "EFFICOM",
       "area": "CONCEPTEUR RÉALISATEUR MULTIMÉDIA",
       "studyType": "Licence",
       "startDate": "2008-09",
-      "endDate": "2009-07"
+      "endDate": "2009-07",
+      "url":""
     },
     {
       "institution": "EFFICOM",
       "area": "DESIGN ET COMMUNICATION VISUELLE",
       "studyType": "BTS",
       "startDate": "2007-09",
-      "endDate": "2008-07"
+      "endDate": "2008-07",
+      "url":""
+
     }
   ],
   "certificates": [
