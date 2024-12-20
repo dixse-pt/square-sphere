@@ -515,6 +515,7 @@
         "Cloud: AWS, Prometheus, Grafana",
         "Data processing and transformation at scale"
       ],
+      "url": "https://gitlab.com/datascientest_sep24_bootcamp_de",
       "github": "https://gitlab.com/datascientest_sep24_bootcamp_de"
     },
     {
@@ -527,6 +528,7 @@
         "Cloud: AWS, monitoring, logging",
         "Infrastructure automation and management"
       ],
+      "url": "https://gitlab.com/datascientest_mar24_bootcamp_devops",
       "github": "https://gitlab.com/datascientest_mar24_bootcamp_devops"
     },
     {
@@ -540,19 +542,6 @@
         "SEO et multilingue"
       ],
       "url": "https://paragoncordial.com/fr/"
-    },
-    {
-      "name": "Shopu",
-      "isActive": true,
-      "description": "Développement d'un site e-commerce PrestaShop avec intégration de maquettes, systèmes de paiement et livraison, optimisation des performances et UX.",
-      "highlights": [
-        "Développement PrestaShop sur mesure",
-        "Intégration des maquettes PDF",
-        "Mise en place des systèmes de paiement et livraison",
-        "Optimisation des performances et UX",
-        "Gestion du catalogue et panier d'achat"
-      ],
-      "url": "https://www.shopu.fr/fr/"
     },
     {
       "name": "Shopu",
