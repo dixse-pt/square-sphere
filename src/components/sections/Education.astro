@@ -99,10 +99,26 @@ const [visibleCertificates, hiddenCertificates] = [
 				</ul>
 
 				{hiddenCertificates.length > 0 && (
-					<button id="toggleCertificates" class="mt-4 text-sm text-skin-accent hover:text-skin-accent-hover">
-						Voir plus ({hiddenCertificates.length} certifications)
-					</button>
-				)}
+						<button
+							id="toggleCertificates"
+							class="print:hidden group/more w-fit cursor-pointer items-center justify-center gap-1.5 text-xs underline text-skin-muted transition-all hover:text-skin-base flex"
+						>
+							<span id="toggleText">Voir plus</span>
+							<svg
+								class="w-4 h-4 group-hover/more:translate-y-0.5 duration-200 ease-out"
+								id="toggleIcon"
+								viewBox="0 0 24 24"
+								xmlns="http://www.w3.org/2000/svg"
+								fill="none"
+								stroke="currentColor"
+								stroke-width="2"
+								stroke-linecap="round"
+								stroke-linejoin="round"
+							>
+								<polyline points="6 9 12 15 18 9"></polyline>
+							</svg>
+						</button>
+					)}
 			</>
 		)
 	}
@@ -110,18 +126,21 @@ const [visibleCertificates, hiddenCertificates] = [
 
 <script>
   const toggleBtn = document.getElementById('toggleCertificates');
+  const toggleText = document.getElementById('toggleText');
+  const toggleIcon = document.getElementById('toggleIcon');
   const hiddenItems = document.querySelectorAll('.certificate-item.hidden');
   let isExpanded = false;
 
   toggleBtn?.addEventListener('click', () => {
-    isExpanded = !isExpanded;
-    
-    hiddenItems.forEach(item => {
-      item.classList.toggle('hidden');
-    });
+	isExpanded = !isExpanded;
+	
+	hiddenItems.forEach(item => {
+	  item.classList.toggle('hidden');
+	});
 
-    toggleBtn.textContent = isExpanded 
-      ? 'Voir moins' 
-      : `Voir plus (${hiddenItems.length} certifications)`;
+	if (toggleText) {
+	  toggleText.textContent = isExpanded ? 'Voir moins' : 'Voir plus';
+	}
+	toggleIcon?.classList.toggle('rotate-180', isExpanded);
   });
 </script>
