@@ -125,19 +125,22 @@
       "name": "Airflow",
       "date": "November 2024",
       "issuer": "DataScientest.com",
-      "url": "https://files.datascientest.com/certification/96aab5f8-25b3-4dd6-9805-d3c26cfa1574.pdf"
+      "url": "https://files.datascientest.com/certification/96aab5f8-25b3-4dd6-9805-d3c26cfa1574.pdf",
+      "formation": "sep24_bootcamp_de"
     },
     {
       "name": "Docker",
       "date": "November 2024",
       "issuer": "DataScientest.com",
-      "url": "https://files.datascientest.com/certification/df3828e1-b6f8-48b1-9145-9d0f8b42880d.pdf"
+      "url": "https://files.datascientest.com/certification/df3828e1-b6f8-48b1-9145-9d0f8b42880d.pdf",
+      "formation": "sep24_bootcamp_de"
     },
     {
       "name": "Kubernetes",
       "date": "November 2024",
       "issuer": "DataScientest.com",
-      "url": "https://files.datascientest.com/certification/50df53c1-124c-4ecb-946b-1abae0ef3d10.pdf"
+      "url": "https://files.datascientest.com/certification/50df53c1-124c-4ecb-946b-1abae0ef3d10.pdf",
+      "formation": "sep24_bootcamp_de"
     },
     {
       "name": "Machine Learning with sklearn",
@@ -199,18 +202,19 @@
       "issuer": "DataScientest.com",
       "url": "https://files.datascientest.com/certification/a8299dcc-65c5-432f-8456-4684daf50c3e.pdf"
     },
-    
     {
       "name": "Docker DevOps",
       "date": "May 2024",
       "issuer": "DataScientest.com",
-      "url": "https://files.datascientest.com/certification/ecbc1ef3-adf3-4d98-9570-635e2cd31403.pdf"
+      "url": "https://files.datascientest.com/certification/ecbc1ef3-adf3-4d98-9570-635e2cd31403.pdf",
+      "formation": "mar24_bootcamp_devops"
     },
     {
       "name": "Elasticsearch",
       "date": "April 2024",
       "issuer": "DataScientest.com",
-      "url": "https://files.datascientest.com/certification/cc041925-4d03-4c0b-a550-ab6c85897d59.pdf"
+      "url": "https://files.datascientest.com/certification/cc041925-4d03-4c0b-a550-ab6c85897d59.pdf",
+      "formation": "mar24_bootcamp_devops"
     },
     {
       "name": "GitLab",
