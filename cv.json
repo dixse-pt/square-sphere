@@ -1,189 +1,218 @@
 {
   "basics": {
-    "name": "John Doe",
-    "label": "Junior Full Stack Developer",
-    "image": "/me_avatar.jpg",
-    "email": "john.doe@example.com",
-    "phone": "+1 555-555-5555",
-    "url": "https://johndoe.dev",
-    "summary": "Junior Full Stack Developer with a passion for building web applications. Currently seeking opportunities to further develop my skills in a professional setting.",
-    "theme": "default",
+    "name": "Julien Landouar",
+    "label": "Data Engineering | DevOps | Front-End Development",
+    "image": "/1727471469845.jpeg",
+    "email": "julien.landouar@gmail.com",
+    "phone": "0608015850",
+    "url": "https://jlnlndr.fr",
+    "summary": "Data Engineer et DevOps, récemment formé aux technologies modernes (CI/CD, Big Data, Cloud), je suis à la recherche d’un poste dans l’un de ces domaines ou à leur intersection. Fort de plus de 10 ans d’expérience en développement front-end et web design (WordPress, SEO, e-commerce), je combine mes compétences passées avec mes nouvelles expertises pour relever des défs techniques ambitieux.",
+    "theme": "blue",
     "location": {
-      "address": "",
-      "postalCode": "10001",
-      "city": "Auckland",
-      "countryCode": "NZ",
-      "region": "New Zealand"
+      "city": "Triel-sur-Seine",
+      "region": "Île-de-France",
+      "countryCode": "FR"
     },
     "profiles": [
       {
         "network": "LinkedIn",
-        "username": "john-doe",
-        "url": "https://linkedin.com/in/john-doe"
-      },
-      {
-        "network": "X",
-        "username": "john-doe",
-        "url": "https://x.com/john-doe"
-      },
-      {
-        "network": "GitHub",
-        "username": "johndoe",
-        "url": "https://github.com/johndoe"
+        "url": "www.linkedin.com/in/julien-landouar"
       }
     ]
   },
   "work": [
     {
-      "name": "Tech Startup",
-      "position": "Junior Web Developer",
-      "location_type": "On site",
-      "location": "Auckland, New Zealand",
-      "url": "https://techstartup.com",
-      "startDate": "2024-01-01",
-      "endDate": null,
-      "summary": "Developing and maintaining web applications using JavaScript, HTML, and CSS. Collaborating with the team to implement new features and fix bugs.",
-      "highlights": [
-        "Improved website performance by optimizing code"
-      ],
-      "responsibilities": [
-        "Collaborated with senior developers to design and implement web applications using modern JavaScript frameworks.",
-        "Assisted in debugging and optimizing front-end code to ensure smooth user experiences.",
-        "Participated in code reviews and contributed to improving coding standards within the team."
-      ],
-      "achievements": [
-        "Developing and maintaining web applications using JavaScript, HTML, and CSS. Collaborating with the team to implement new features and fix bugs."
-      ],
-      "skills": [
-        "React",
-        "Tailwind",
-        "GitHub"
-      ]
+      "name": "TEDDY Sport Agency",
+      "position": "Développeur front-end",
+      "location": "Ville de Paris, Île-de-France, France",
+      "startDate": "2022-01",
+      "endDate": "2023-10",
+      "location_type": "On site"
     },
     {
-      "name": "Innovative Solutions",
-      "position": "Junior Software Developer",
-      "location_type": "Hybrid",
-      "location": "Wellington, New Zealand",
-      "url": "https://innovativesolutions.com",
-      "startDate": "2022-06-01",
-      "endDate": "2023-06-01",
-      "summary": "Assisting in the development and maintenance of software applications using Python and Django. Collaborating with cross-functional teams to ensure quality and timely delivery of software solutions.",
-      "highlights": [
-        "Contributed to a major project that streamlined internal workflows, improving efficiency by 30%"
-      ],
-      "responsibilities": [
-        "Developed and maintained backend services using Python and Django.",
-        "Worked closely with front-end developers to integrate user-facing elements with server-side logic.",
-        "Participated in daily stand-ups and bi-weekly sprint planning meetings to ensure alignment with project goals."
-      ],
-      "achievements": [
-        "Successfully implemented a feature that enhanced user authentication, improving security measures."
-      ],
-      "skills": [
-        "Python",
-        "Django",
-        "SQL",
-        "Git"
-      ]
-    },
-    {
-      "name": "Web Agency",
-      "position": "Intern Web Developer",
-      "location_type": "Remote",
-      "location": "Sydney, Australia",
-      "startDate": "2022-06-01",
-      "endDate": "2022-12-01",
-      "summary": "Assisted in developing client websites and applications. Gained hands-on experience with front-end and back-end technologies.",
-      "highlights": [
-        "Completed several client projects successfully"
-      ],
-      "skills": [
-        "HTML",
-        "CSS"
-      ]
-    }
-  ],
-  "volunteer": [
-    {
-      "organization": "Local Coding Club",
-      "position": "Volunteer",
-      "url": "https://codingclub.com/",
-      "startDate": "2021-01-01",
-      "endDate": "2022-01-01",
-      "summary": "Helped organize coding workshops and mentored new members.",
-      "highlights": [
-        "Awarded 'Volunteer of the Month'"
-      ]
+      "name": "Quatre Vingt Deux",
+      "position": "Développeur front-end",
+      "location": "Ville de Paris, Île-de-France, France",
+      "startDate": "2014-08",
+      "endDate": "2021-12",
+      "location_type": "On site"
     }
   ],
   "education": [
     {
-      "institution": "State University",
-      "url": "https://stateuniversity.edu",
-      "area": "Computer Science",
-      "studyType": "Bachelor",
-      "startDate": "2018-09-01",
-      "endDate": "2022-05-01",
-      "score": "3.8",
-      "courses": [
-        "CS101 - Introduction to Computer Science",
-        "CS102 - Data Structures"
-      ]
+      "institution": "DataScientest.com",
+      "area": "DATA ENGINEER",
+      "studyType": "Certification de niveau 7 RNCP 38919",
+      "startDate": "2024-09",
+      "endDate": "2024-12",
+      "description": "bloc 2 et 3"
     },
     {
-      "institution": "Tech Institute",
-      "url": "https://techinstitute.edu",
-      "area": "Software Engineering",
-      "studyType": "Master",
-      "startDate": "2020-09-01",
-      "endDate": "2022-12-01",
-      "score": "3.9",
-      "courses": [
-        "SE201 - Advanced Software Development",
-        "SE202 - Software Architecture and Design"
-      ]
+      "institution": "DataScientest.com",
+      "area": "ADMINISTRATEUR SYSTÈME DEVOPS",
+      "studyType": "Titre professionnel (TP) de niveau 6",
+      "startDate": "2024-03",
+      "endDate": "2024-06"
     },
     {
-      "institution": "City College",
-      "url": "https://citycollege.edu",
-      "area": "Information Technology",
-      "studyType": "Associate Degree",
-      "startDate": "2017-01-01",
-      "endDate": "2019-12-01",
-      "score": "3.7",
-      "courses": [
-        "IT101 - Networking Fundamentals",
-        "IT102 - Database Management Systems"
-      ]
+      "institution": "ITECOM ART DESIGN",
+      "area": "INTÉGRATION & WEBDESIGN",
+      "startDate": "2009-09",
+      "endDate": "2010-07"
+    },
+    {
+      "institution": "EFFICOM",
+      "area": "CONCEPTEUR RÉALISATEUR MULTIMÉDIA",
+      "studyType": "Licence",
+      "startDate": "2008-09",
+      "endDate": "2009-07"
+    },
+    {
+      "institution": "EFFICOM",
+      "area": "DESIGN ET COMMUNICATION VISUELLE",
+      "studyType": "BTS",
+      "startDate": "2007-09",
+      "endDate": "2008-07"
     }
   ],
   "certificates": [
     {
-      "name": "Full Stack Web Development",
-      "date": "2023-05-01",
-      "issuer": "Online University",
-      "url": "https://onlineuniversity.com/certificates/fullstack"
+      "name": "Airflow",
+      "date": "November 2024",
+      "issuer": "DataScientest.com",
+      "url": "https://files.datascientest.com/certification/96aab5f8-25b3-4dd6-9805-d3c26cfa1574.pdf"
+    },
+    {
+      "name": "Docker",
+      "date": "November 2024",
+      "issuer": "DataScientest.com",
+      "url": "https://files.datascientest.com/certification/df3828e1-b6f8-48b1-9145-9d0f8b42880d.pdf"
+    },
+    {
+      "name": "Kubernetes",
+      "date": "November 2024",
+      "issuer": "DataScientest.com",
+      "url": "https://files.datascientest.com/certification/50df53c1-124c-4ecb-946b-1abae0ef3d10.pdf"
+    },
+    {
+      "name": "Machine Learning with sklearn",
+      "date": "October 2024",
+      "issuer": "DataScientest.com",
+      "url": "https://files.datascientest.com/certification/f72ad9c5-0cf5-4fbf-86d6-ee287537e2ef.pdf"
+    },
+    {
+      "name": "PySpark",
+      "date": "October 2024",
+      "issuer": "DataScientest.com",
+      "url": "https://files.datascientest.com/certification/3559ed70-f064-4496-864c-3749e54c2195.pdf"
+    },
+    {
+      "name": "Relational Databases",
+      "date": "September 2024",
+      "issuer": "DataScientest.com",
+      "url": "https://files.datascientest.com/certification/5c1e0df8-e1d5-4d5d-a154-b457efb98965.pdf"
+    },
+    {
+      "name": "GDPR, AI Ethics, and Act",
+      "date": "September 2024",
+      "issuer": "DataScientest.com",
+      "url": "https://files.datascientest.com/certification/ff4f15e0-7f8e-47c7-b603-c7e35b59e1a5.pdf"
+    },
+    {
+      "name": "First Steps on the Virtual Machine",
+      "date": "September 2024",
+      "issuer": "DataScientest.com",
+      "url": "https://files.datascientest.com/certification/84e0929b-a2f3-429b-a53f-3c465431bc9c.pdf"
+    },
+    {
+      "name": "Object-Oriented Programming (FR)",
+      "date": "September 2024",
+      "issuer": "DataScientest.com",
+      "url": "https://files.datascientest.com/certification/16bf873d-2f64-46a7-97fd-f68a5e188173.pdf"
+    },
+    {
+      "name": "Python for Data Engineering",
+      "date": "September 2024",
+      "issuer": "DataScientest.com",
+      "url": "https://files.datascientest.com/certification/06a31205-f81f-4320-a72e-2378ba9ac430.pdf"
+    },
+    {
+      "name": "Web Scraping with BeautifulSoup",
+      "date": "September 2024",
+      "issuer": "DataScientest.com",
+      "url": "https://files.datascientest.com/certification/3ffc5869-8558-4b6d-970e-6fb92d0b75a8.pdf"
+    },
+    {
+      "name": "Ansible",
+      "date": "July 2024",
+      "issuer": "DataScientest.com",
+      "url": "https://files.datascientest.com/certification/e0937ac4-72f6-4724-833b-56789d5e4487.pdf"
+    },
+    {
+      "name": "Terraform",
+      "date": "July 2024",
+      "issuer": "DataScientest.com",
+      "url": "https://files.datascientest.com/certification/a8299dcc-65c5-432f-8456-4684daf50c3e.pdf"
+    },
+    {
+      "name": "DevOps Engineer",
+      "date": "June 2024",
+      "issuer": "DevOps University France",
+      "url": "https://files.datascientest.com/diploma/d5523011-e041-4bb9-b0d9-730c6935f613.pdf"
+    },
+    {
+      "name": "Docker DevOps",
+      "date": "May 2024",
+      "issuer": "DataScientest.com",
+      "url": "https://files.datascientest.com/certification/ecbc1ef3-adf3-4d98-9570-635e2cd31403.pdf"
+    },
+    {
+      "name": "Elasticsearch",
+      "date": "April 2024",
+      "issuer": "DataScientest.com",
+      "url": "https://files.datascientest.com/certification/cc041925-4d03-4c0b-a550-ab6c85897d59.pdf"
+    },
+    {
+      "name": "GitLab",
+      "date": "April 2024",
+      "issuer": "DataScientest.com",
+      "url": "https://files.datascientest.com/certification/4d4e2c97-b31b-4ba8-b808-d4581b1fb35c.pdf"
+    },
+    {
+      "name": "Jenkins",
+      "date": "April 2024",
+      "issuer": "DataScientest.com",
+      "url": "https://files.datascientest.com/certification/d4d038ed-6416-4f1a-81c2-aadd9b412eb7.pdf"
+    },
+    {
+      "name": "Kubernetes for DevOps",
+      "date": "March 2024",
+      "issuer": "DataScientest.com",
+      "url": "https://files.datascientest.com/certification/ce8dcc8e-a4fb-43aa-a18d-0ca8a23e1415.pdf"
+    },
+    {
+      "name": "Linux Administration",
+      "date": "March 2024",
+      "issuer": "DataScientest.com",
+      "url": "https://files.datascientest.com/certification/502260da-004d-4b47-8a31-d062ba2775be.pdf"
+    },
+    {
+      "name": "NoSQL Databases (MongoDB)",
+      "date": "March 2024",
+      "issuer": "DataScientest.com"
+    },
+    {
+      "name": "SQL for Data Science",
+      "date": "March 2024",
+      "issuer": "DataScientest.com"
+    },
+    {
+      "name": "Data Acculturation",
+      "date": "March 2024",
+      "issuer": "DataScientest.com"
     }
   ],
   "skills": [
-    {
-      "name": "Figma",
-      "level": "Expert",
-      "keywords": [
-        "Design",
-        "UI"
-      ]
-    },
-    {
-      "name": "Gitlab",
-      "level": "Intermediate",
-      "keywords": [
-        "Version Control",
-        "Collaboration",
-        "Source Code"
-      ]
-    },
     {
       "name": "HTML",
       "level": "Intermediate",
@@ -196,9 +225,18 @@
       "name": "CSS",
       "level": "Intermediate",
       "keywords": [
-        "Web Development",
+        "Responsive Design",
         "Frontend",
-        "Responsive Design"
+        "Styling"
+      ]
+    },
+    {
+      "name": "Tailwind CSS",
+      "level": "Intermediate",
+      "keywords": [
+        "Utility-first Framework",
+        "Responsive Design",
+        "Frontend"
       ]
     },
     {
@@ -207,48 +245,7 @@
       "keywords": [
         "Web Development",
         "Frontend",
-        "Backend",
-        "Fullstack"
-      ]
-    },
-    {
-      "name": "Tailwind",
-      "level": "Intermediate",
-      "keywords": [
-        "Web Development",
-        "Frontend",
-        "CSS Framework",
-        "Responsive Design"
-      ]
-    },
-    {
-      "name": "TypeScript",
-      "level": "Intermediate",
-      "keywords": [
-        "Web Development",
-        "Frontend",
-        "Backend",
-        "JavaScript Superset"
-      ]
-    },
-    {
-      "name": "Node",
-      "level": "Intermediate",
-      "keywords": [
-        "Web Development",
-        "Backend",
-        "JavaScript",
-        "Server"
-      ]
-    },
-    {
-      "name": "MySQL",
-      "level": "Intermediate",
-      "keywords": [
-        "Databases",
-        "SQL",
-        "Data Storage",
-        "Backend"
+        "Interactive Design"
       ]
     },
     {
@@ -261,60 +258,203 @@
       ]
     },
     {
+      "name": "Gitlab",
+      "level": "Intermediate",
+      "keywords": [
+        "Version Control",
+        "DevOps",
+        "CI/CD"
+      ]
+    },
+    {
       "name": "GitHub",
       "level": "Intermediate",
       "keywords": [
         "Version Control",
-        "Collaboration",
-        "Source Code",
-        "Git"
+        "DevOps",
+        "CI/CD"
       ]
     },
     {
-      "name": "Next.js",
-      "level": "Beginner",
-      "keywords": [
-        "Web Development",
-        "Frontend",
-        "React Framework",
-        "SSR",
-        "Static Generation"
-      ]
-    },
-    {
-      "name": "React",
+      "name": "CI/CD",
       "level": "Intermediate",
       "keywords": [
+        "DevOps",
+        "Automation",
+        "Continuous Integration"
+      ]
+    },
+    {
+      "name": "NoSQL",
+      "level": "Beginner",
+      "keywords": [
+        "MongoDB",
+        "Database Design",
+        "Unstructured Data"
+      ]
+    },
+    {
+      "name": "Linux",
+      "level": "Intermediate",
+      "keywords": [
+        "System Administration",
+        "Command Line",
+        "Shell Scripting"
+      ]
+    },
+    {
+      "name": "WordPress",
+      "level": "Intermediate",
+      "keywords": [
+        "CMS",
         "Web Development",
-        "Frontend",
-        "JavaScript Library",
-        "UI"
+        "PHP"
+      ]
+    },
+    {
+      "name": "SEO",
+      "level": "Intermediate",
+      "keywords": [
+        "Search Engine Optimization",
+        "Marketing",
+        "Web Development"
+      ]
+    },
+    {
+      "name": "E-commerce",
+      "level": "Intermediate",
+      "keywords": [
+        "Online Store",
+        "Web Development",
+        "WordPress"
+      ]
+    },
+    {
+      "name": "DevOps",
+      "level": "Intermediate",
+      "keywords": [
+        "CI/CD",
+        "Automation",
+        "Cloud Infrastructure"
+      ]
+    },
+    {
+      "name": "Airflow",
+      "level": "Intermediate",
+      "keywords": [
+        "Data Pipelines",
+        "Workflow Automation",
+        "Orchestration"
+      ]
+    },
+    {
+      "name": "Docker",
+      "level": "Intermediate",
+      "keywords": [
+        "Containerization",
+        "DevOps",
+        "Deployment"
+      ]
+    },
+    {
+      "name": "Kubernetes",
+      "level": "Intermediate",
+      "keywords": [
+        "Container Orchestration",
+        "DevOps",
+        "Cloud Infrastructure"
+      ]
+    },
+    {
+      "name": "Python",
+      "level": "Intermediate",
+      "keywords": [
+        "Data Engineering",
+        "Machine Learning",
+        "Scripting",
+        "Automation"
+      ]
+    },
+    {
+      "name": "PySpark",
+      "level": "Intermediate",
+      "keywords": [
+        "Big Data",
+        "Distributed Computing",
+        "Apache Spark"
+      ]
+    },
+    {
+      "name": "Machine Learning",
+      "level": "Intermediate",
+      "keywords": [
+        "sklearn",
+        "Data Analysis",
+        "Predictive Modeling"
+      ]
+    },
+    {
+      "name": "Ansible",
+      "level": "Beginner",
+      "keywords": [
+        "Configuration Management",
+        "Infrastructure as Code",
+        "Automation"
+      ]
+    },
+    {
+      "name": "Terraform",
+      "level": "Beginner",
+      "keywords": [
+        "Infrastructure as Code",
+        "Cloud Automation",
+        "Provisioning"
+      ]
+    },
+    {
+      "name": "Elasticsearch",
+      "level": "Beginner",
+      "keywords": [
+        "Search Engine",
+        "Log Analysis",
+        "Data Indexing"
+      ]
+    },
+    {
+      "name": "Jenkins",
+      "level": "Beginner",
+      "keywords": [
+        "CI/CD",
+        "Automation",
+        "Build Pipelines"
       ]
     }
   ],
   "languages": [
     {
-      "language": "English",
-      "fluency": "Native speaker"
+      "language": "Français",
+      "fluency": "langue maternelle"
     },
     {
-      "language": "Spanish",
-      "fluency": "Intermediate"
+      "language": "Anglais",
+      "fluency": "professionnel"
     }
   ],
   "interests": [
     {
-      "name": "Technology",
+      "name": "Domotique avec Home Assistant",
       "keywords": [
-        "AI",
-        "Blockchain"
+        "python",
+        "iot",
+        "Domotique"
       ]
     }
   ],
   "references": [
     {
-      "name": "Jane Smith",
-      "reference": "Reference…"
+      "name": "Jérémie TAROT",
+      "reference": "Mentorat sur le projet DevOps de DataScientest.com",
+      "url": "https://www.linkedin.com/in/jeremie-tarot/"
     }
   ],
   "projects": [
